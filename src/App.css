@@ -1,38 +1,591 @@
-.App {
-  text-align: center;
+/* Navbar */
+.navbar-light .navbar-toggler {
+  color: white !important;
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: black !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover {
+  color: #1097ef !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-nav {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.brand-logo {
+  width: 45px;
+  margin-right: 7px;
+}
+
+.navbar-brand {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: white !important;
+  font-size: 25px !important;
+}
+
+/* Main */
+.main-caption {
+  margin-top: 200px;
+  font-size: 40px;
+  font-family: "Baloo Bhaijaan 2", cursive;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-text {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-image {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 40px;
+  color: white;
+  margin-right: 15px;
+}
+
+.social-url {
+  text-decoration: none;
+  color: white;
+}
+
+.social-url:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  background: linear-gradient(35deg, #11cdef, #1171ef) !important;
+}
+
+/* What I Do? */
+.what-i-do {
+  margin-top: 100px;
+}
+
+.whatido-question {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: #1183ef;
+}
+
+.whatido-answer {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: #1183ef;
+}
+
+.skilss-logo {
+  width: 70px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.skilss-col {
+  text-align: center;
+  margin-top: 100px;
+}
+.whatido-img {
+  width: 625px;
+  margin-top: 50px;
+}
+
+.whatido-img-col {
+  text-align: center;
+}
+
+.skills-text-div {
+  margin-top: 70px;
+}
+
+.skilss-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  color: #1183ef;
+}
+
+/* Education */
+.education {
+  margin-top: 150px;
+  background: linear-gradient(35deg, #11cdef, #1171ef) !important;
+}
+
+.edu-card {
+  text-align: initial;
+  background-color: white;
+  width: 430px;
+  height: 160px;
+  border-radius: 5px;
+  margin-bottom: 70px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.edu-caption {
+  margin-bottom: 70px;
+  padding-top: 30px;
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.edu-company {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  color: #1171ef;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.edu-degree {
+  padding-top: 0px;
+  padding-left: 25px;
+  font-size: 20px;
+  color: black;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.edu-time {
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  color: #1171ef;
+}
+/* Experience */
+.exp-caption {
+  margin-bottom: 70px;
+  padding-top: 30px;
+  color: #1183ef;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.exp-card {
+  width: 400px;
+  height: 510px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  text-align: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.comp-name {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border-radius: 10px;
+  background-color: #1182ee;
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.comp-logo {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 130px;
+}
+
+.exp-degree {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  padding-top: 15px;
+  font-size: 25px;
+  color: #1182ee;
+  opacity: 0.8;
+}
+
+.exp-time {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+.exp-respo {
+  font-size: 15px;
+  margin-bottom: 25px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.comp-web {
+  text-decoration: none !important;
+  color: #1182ee !important;
+  margin-bottom: 25px !important;
+}
+
+.comp-web:hover {
+  text-decoration: none !important;
+  color: #1182ee !important;
+  margin-bottom: 25px !important;
+}
+
+/* Projects */
+.pr-caption {
+  margin-bottom: 70px;
+  padding-top: 30px;
+  color: #1183ef;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.pr-card {
+  text-align: initial;
+  background-color: white;
+  width: 425px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 70px;
+  box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset,
+    rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+.pr-name {
+  font-size: 22px;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.pr-about {
+  color: #1183ef;
+  padding-top: 20px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.buttons-pr {
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+.github-pr {
+  margin-right: 10px;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 23px;
+}
+
+.web-pr {
+  margin-right: 10px;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #1183ef;
+  color: white;
+  font-size: 23px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  background: linear-gradient(35deg, #11cdef, #1171ef) !important;
+}
+
+.footer-cap {
+  font-size: 45px;
+  margin-top: 40px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: white;
+}
+
+.footer-text {
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: white;
+}
+
+.contact {
+  font-size: 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.oktay-img {
+  width: 220px;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.oktay-img-col {
+  text-align: center;
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 500px) {
+  .main-image {
+    margin-top: 50px;
+    width: 300px;
+    padding-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .experience {
+    text-align: center;
+  }
+
+  .exp-respo {
+    font-size: 13px;
+    margin-bottom: 25px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .comp-name {
+    font-size: 30px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 10px;
+    background-color: #1182ee;
+    color: white;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .exp-caption {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    color: #1183ef;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .exp-time {
+    font-family: "Baloo Bhaijaan 2", cursive;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .pr-card {
+    text-align: initial;
+    background-color: white;
+    width: 290px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 30px !important;
+    margin: auto;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset,
+      rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+      rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  }
+  .web-pr {
+    border: 0px;
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #1183ef;
+    color: white;
+    font-size: 22.65px;
+    padding: 4px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .pr-name {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+
+  .pr-about {
+    color: #1183ef;
+    padding-top: 20px;
+    font-size: 12px;
+    padding-left: 15px;
+  }
+
+  .github-pr {
+    margin-right: 10px;
+    width: 60px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+
+  .comp-logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 130px;
+  }
+
+  .exp-card {
+    width: 290px;
+    margin: auto;
+    height: 470px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset,
+      rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+      rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  }
+
+  .whatido-img {
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .whatido-img-col {
+    text-align: center;
+  }
+
+  .education {
+    margin-top: 75px;
+    text-align: center;
+    background: linear-gradient(35deg, #11cdef, #1171ef) !important;
+  }
+
+  .whatido-answer {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: #1183ef;
+  }
+
+  .skilss-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    color: #1183ef;
+  }
+
+  .skills-text-div {
+    margin-top: 40px;
+  }
+
+  .skilss-logo {
+    width: 55px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .skilss-col {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .oktay-img {
+    width: 220px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+  }
+
+  .edu-caption {
+    margin-bottom: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .img-col {
+    text-align: center;
+  }
+
+  .main-caption {
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: white;
+  }
+
+  .main-text {
+    font-family: "Baloo Bhaijaan 2", cursive;
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .texts-col {
+    text-align: center;
+  }
+
+  .footer-cap {
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: white;
+  }
+
+  .footer-text {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: white;
+  }
+  .brand-logo {
+    width: 40px;
+    margin-right: 0px;
+  }
+
+  .pr-caption {
+    margin-bottom: 40px;
+    padding-top: 30px;
+    color: #1183ef;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .contact {
+    font-size: 15px;
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  .edu-company {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    font-size: 23px;
+    color: #1171ef;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .navbar-brand {
+    font-family: "Baloo Bhaijaan 2", cursive;
+    color: white !important;
+    font-size: 0px;
+  }
+
+  .projects {
+    text-align: center;
+  }
+  s .edu-degree {
+    padding-top: 0px;
+    padding-left: 25px;
+    font-size: 18px;
+    color: black;
+    font-family: "Baloo Bhaijaan 2", cursive;
+  }
+
+  .edu-card {
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset,
+      rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+      rgb(0 0 0 / 30%) 0px 30px 60px -30px;
   }
 }
